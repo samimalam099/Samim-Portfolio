@@ -156,37 +156,6 @@ const Skills = () => {
           })}
         </div>
 
-        {/* Methodologies & Values Tag Showcase */}
-        <div className="mt-24">
-          <h3 className="text-2xl font-bold mb-8 text-center text-slate-300">
-            Professional Values & Methodologies
-          </h3>
-
-          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-            {[
-              'Responsive Web Design',
-              'SEO Optimization',
-              'Clean Code Architecture',
-              'Creative Graphic Design',
-              'Database Management',
-              'Professional Documentation',
-              'Analytical Thinking',
-              'Problem Solving',
-            ].map((competency, index) => (
-              <motion.span
-                key={index}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
-                className="px-5 py-2.5 rounded-full text-sm font-semibold border border-red-500/10 bg-red-500/5 text-red-300 hover:bg-red-500/10 hover:border-red-500/30 hover:text-white transition-all duration-300 cursor-default"
-                whileHover={{ y: -3, scale: 1.05 }}
-              >
-                {competency}
-              </motion.span>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   )
