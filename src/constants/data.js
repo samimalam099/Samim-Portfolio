@@ -11,15 +11,23 @@ export const NAVIGATION = [
 export const SKILLS = [
   {
     category: 'Frontend',
-    skills: ['React', 'Vue', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vite'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'React.js'],
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express', 'Python', 'FastAPI', 'PostgreSQL', 'MongoDB'],
+    skills: ['Node.js', 'Python', 'Java'],
   },
   {
-    category: 'Tools & Others',
-    skills: ['Git', 'Docker', 'AWS', 'Figma', 'Firebase', 'REST APIs'],
+    category: 'Database',
+    skills: ['MySQL', 'MongoDB'],
+  },
+  {
+    category: 'Development Tools',
+    skills: ['Git', 'GitHub', 'VS Code', 'Canva'],
+  },
+  {
+    category: 'MS Office Packages',
+    skills: ['Word', 'Excel', 'PowerPoint'],
   },
 ]
 
