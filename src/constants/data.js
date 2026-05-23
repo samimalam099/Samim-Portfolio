@@ -4,7 +4,6 @@ export const NAVIGATION = [
   { label: 'Skills', href: '#skills' },
   { label: 'Education', href: '#education' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
   { label: 'Resume', href: '#resume' },
   { label: 'Contact', href: '#contact' },
 ]

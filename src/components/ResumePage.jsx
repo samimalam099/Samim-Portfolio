@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { HiEye, HiDownload, HiArrowsExpand, HiSparkles, HiMail } from 'react-icons/hi'
-import ResumePreviewCard from './ResumePreviewCard'
 import ResumeViewer from './ResumeViewer'
 import ResumeControls from './ResumeControls'
 import FullscreenModal from './FullscreenModal'
@@ -68,12 +67,18 @@ const ResumePage = () => {
           </motion.p>
 
           <motion.div variants={itemVariants} className="mt-10 flex flex-col gap-3 sm:flex-row sm:justify-center sm:items-center">
-            <a
-              href="#resume-viewer"
+            <button
+              type="button"
+              onClick={() => {
+                const element = document.getElementById('resume-viewer')
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth', block: 'center' })
+                }
+              }}
               className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_20px_80px_rgba(56,189,248,0.24)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_25px_90px_rgba(56,189,248,0.32)]"
             >
               <HiEye className="mr-2 text-lg" /> View Resume
-            </a>
+            </button>
             <a
               href={resumeLink}
               download
@@ -96,13 +101,8 @@ const ResumePage = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
-          className="grid gap-8 xl:grid-cols-[1.1fr_0.9fr] items-start"
+          className="max-w-3xl mx-auto"
         >
-          <ResumePreviewCard
-            resumeLink={resumeLink}
-            onOpen={() => setIsFullscreen(true)}
-          />
-
           <div className="space-y-6">
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-[0_30px_90px_rgba(14,165,233,0.15)] backdrop-blur-xl">
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
