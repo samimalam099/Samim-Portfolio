@@ -9,9 +9,9 @@ import { containerVariants, itemVariants, fadeInUp } from '../utils/animations'
 const resumeLink = 'resume.pdf'
 
 const stats = [
-  { label: 'Years Experience', value: '5+', description: 'Building premium digital products.' },
+  { label: 'Years Experience', value: '1+', description: 'Building premium digital products.' },
   { label: 'Projects Delivered', value: '2+', description: 'Web apps, dashboards, and portfolios.' },
-  { label: 'Technical Skills', value: '30+', description: 'React, Tailwind, Node.js and design systems.' },
+  { label: 'Technical Skills', value: '10+', description: 'React, Tailwind, Node.js and design systems.' },
 ]
 
 const highlights = [

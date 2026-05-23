@@ -18,7 +18,7 @@ const stats = [
   },
   {
     title: 'Years of Experience',
-    value: '5+',
+    value: '1+',
     icon: HiClock,
     description: 'End-to-end product experience across startups, agencies, and enterprise teams.',
   },

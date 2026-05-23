@@ -55,16 +55,16 @@ const About = () => {
               </p>
 
               <p className="text-lg text-slate-300 leading-relaxed">
-                Over the last 5+ years I've delivered 24+ projects and built a broad technical toolkit (30+ technical
+                Over the last 1+ year I've delivered 2+ projects and built a broad technical toolkit (10+ technical
                 skills) including React, Tailwind, Node.js and design systems. I'm available for projects and
                 collaborations; reach out to discuss how we can build something impactful.
               </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
               {[
-                { label: 'Years Experience', value: '5+' },
+                { label: 'Years Experience', value: '1+' },
                 { label: 'Projects Delivered', value: '2+' },
-                { label: 'Technical Skills', value: '30+' },
+                { label: 'Technical Skills', value: '10+' },
               ].map((stat, index) => (
                 <motion.div
                   key={index}
