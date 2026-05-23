@@ -33,7 +33,7 @@ const Education = () => {
           <span className="inline-flex rounded-full border border-red-500/10 bg-red-500/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-red-300">
             Education
           </span>
-          <h2 className="mt-5 text-4xl font-extrabold text-white sm:text-5xl">Academic credentials & certifications</h2>
+          <h2 className="mt-5 text-4xl font-extrabold text-white sm:text-5xl">Academic credentials</h2>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-slate-400">
             A concise overview of the training and credentials that power premium developer work.
           </p>
