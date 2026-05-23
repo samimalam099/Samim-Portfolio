@@ -35,7 +35,7 @@ const Education = () => {
           </span>
           <h2 className="mt-5 text-4xl font-extrabold text-white sm:text-5xl">Academic credentials</h2>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-slate-400">
-            A concise overview of the training and credentials that power premium developer work.
+            My academic & professional learning timeline
           </p>
         </div>
 
