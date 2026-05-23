@@ -5,22 +5,22 @@ import { itemVariants } from '../utils/animations'
 
 const education = [
   {
-    level: 'B.Sc. in Computer Science',
-    institution: 'University of Technology',
-    period: '2017 - 2021',
-    detail: 'Focused on AI, data systems, and full-stack application design with modern toolchains.',
+    level: 'Matriculation',
+    institution: 'Adersh High School, Jagdishpur, Bihar',
+    period: '2021 - 2022',
+    detail: 'Completed secondary school education with a strong foundation in core subjects.',
   },
   {
-    level: 'Data Science Bootcamp',
-    institution: 'Future Labs Academy',
-    period: '2022',
-    detail: 'Advanced machine learning, NLP, and product-grade dashboard development.',
+    level: 'Intermediate (12th)',
+    institution: 'T.P. Varma College, Narkatiaganj, Bihar',
+    period: '2022 - 2024',
+    detail: 'Completed senior secondary education focusing on the Science stream.',
   },
   {
-    level: 'AI Certification',
-    institution: 'Cloud Developer Institute',
-    period: '2023',
-    detail: 'Specialization in AI model integration, MLOps pipelines, and predictive analytics.',
+    level: 'Bachelor of Technology (B.Tech)',
+    institution: 'Vivekananda Global University, Jaipur, Rajasthan',
+    period: '2024 - Present',
+    detail: 'Currently pursuing Bachelor of Computer Science and Engineering, building expertise in software development.',
   },
 ]
 
