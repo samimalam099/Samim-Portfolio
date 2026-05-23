@@ -42,42 +42,6 @@ export const PROJECTS = [
     link: '#',
     github: '#',
   },
-  {
-    id: 3,
-    title: 'AI Chatbot Interface',
-    description: 'Interactive AI chatbot interface with natural language processing. Designed with modern UI/UX principles and smooth animations.',
-    image: 'https://images.unsplash.com/photo-1676299081847-824916de030d?w=400&h=250&fit=crop',
-    technologies: ['React', 'OpenAI API', 'Express', 'Socket.io'],
-    link: '#',
-    github: '#',
-  },
-  {
-    id: 4,
-    title: 'Social Media Dashboard',
-    description: 'Comprehensive dashboard for managing multiple social media accounts. Real-time analytics and scheduling features included.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop',
-    technologies: ['React', 'Chart.js', 'Node.js', 'PostgreSQL'],
-    link: '#',
-    github: '#',
-  },
-  {
-    id: 5,
-    title: 'Health & Fitness Tracker',
-    description: 'Mobile-first fitness tracking application with progress visualization and personalized recommendations powered by ML algorithms.',
-    image: 'https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=400&h=250&fit=crop',
-    technologies: ['React Native', 'Python', 'TensorFlow', 'Firebase'],
-    link: '#',
-    github: '#',
-  },
-  {
-    id: 6,
-    title: 'Portfolio Generator',
-    description: 'Automated portfolio generator tool that creates stunning portfolios from JSON data. Fully customizable with multiple themes.',
-    image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'],
-    link: '#',
-    github: '#',
-  },
 ]
 
 export const EXPERIENCE = [

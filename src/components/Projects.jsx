@@ -139,7 +139,7 @@ const Projects = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto"
         >
           {PROJECTS.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
