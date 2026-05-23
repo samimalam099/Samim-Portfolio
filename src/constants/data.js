@@ -26,10 +26,10 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'Full-stack e-commerce platform with React, Node.js, and MongoDB. Features include product filtering, user authentication, and payment integration.',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=400&h=250&fit=crop',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    title: 'Google Earth Engine Project',
+    description: 'A powerful geospatial analysis platform built with Google Earth Engine to process satellite imagery, monitor environmental changes, and visualize climate data in real-time.',
+    image: 'https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400&h=250&fit=crop',
+    technologies: ['Google Earth Engine', 'React', 'JavaScript', 'Geospatial API'],
     link: '#',
     github: '#',
   },
