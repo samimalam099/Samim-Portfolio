@@ -11,7 +11,7 @@ const resumeLink = 'resume.pdf'
 
 const stats = [
   { label: 'Years Experience', value: '5+', description: 'Building premium digital products.' },
-  { label: 'Projects Delivered', value: '24+', description: 'Web apps, dashboards, and portfolios.' },
+  { label: 'Projects Delivered', value: '2+', description: 'Web apps, dashboards, and portfolios.' },
   { label: 'Technical Skills', value: '30+', description: 'React, Tailwind, Node.js and design systems.' },
 ]
 

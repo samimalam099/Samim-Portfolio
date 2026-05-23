@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, containerVariants, itemVariants } from '../utils/animations'
-import profileImage from '../assets/profile.jpeg'
+import profileImage from '../assets/profile.png'
 
 const About = () => {
   return (
@@ -48,23 +48,23 @@ const About = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <p className="text-lg text-slate-300 leading-relaxed">
-              I'm a full-stack developer with a passion for creating beautiful and functional web applications. 
-              With over 5 years of experience in web development, I've had the opportunity to work with various 
-              technologies and collaborate with talented teams.
-            </p>
+              <p className="text-lg text-slate-300 leading-relaxed">
+                I'm a full-stack web developer focused on building premium digital products — web apps, dashboards,
+                and high-quality portfolios. I bring strategic product thinking and polished execution to every project,
+                transforming ideas into responsive, maintainable applications.
+              </p>
 
-            <p className="text-lg text-slate-300 leading-relaxed">
-              My journey in tech started with curiosity and a desire to solve real-world problems through code. 
-              I'm constantly learning new technologies and best practices to stay ahead in this ever-evolving field.
-            </p>
+              <p className="text-lg text-slate-300 leading-relaxed">
+                Over the last 5+ years I've delivered 24+ projects and built a broad technical toolkit (30+ technical
+                skills) including React, Tailwind, Node.js and design systems. I'm available for projects and
+                collaborations; reach out to discuss how we can build something impactful.
+              </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4">
               {[
                 { label: 'Years Experience', value: '5+' },
-                { label: 'Projects Completed', value: '30+' },
-                { label: 'Happy Clients', value: '20+' },
-                { label: 'Technologies', value: '15+' },
+                { label: 'Projects Delivered', value: '2+' },
+                { label: 'Technical Skills', value: '30+' },
               ].map((stat, index) => (
                 <motion.div
                   key={index}

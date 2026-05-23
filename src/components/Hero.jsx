@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { SiGithub, SiLinkedin, SiTwitter, SiInstagram } from 'react-icons/si'
-import profile from '../assets/profile.jpeg'
+import profile from '../assets/profile1.png'
 import { containerVariants, fadeInUp, floatingAnimation, itemVariants } from '../utils/animations'
 
 const SOCIAL_LINKS = [
@@ -45,7 +45,7 @@ const Hero = () => {
               variants={itemVariants}
               className="text-xl font-semibold text-red-300/90"
             >
-              Data Science and AI Developer
+              Web Developer (Full Stack)
             </motion.p>
             <motion.p
               variants={itemVariants}
